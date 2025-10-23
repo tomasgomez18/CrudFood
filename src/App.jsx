@@ -1,14 +1,21 @@
-import { useState } from 'react'
 import './App.css'
+import { BrowserRouter } from 'react-router'
+import Menu from './components/shared/Menu'
+import Footer from './components/shared/footer'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-    
+
+  <BrowserRouter>
+    <Menu> </Menu>
+    <Footer/>
+  </BrowserRouter>  
     </>
-  )
+  ) 
 }
 
 export default App

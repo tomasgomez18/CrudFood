@@ -1,9 +1,11 @@
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <footer className="bg-warning text-dark py-4 text-center">
+        <p>© 2024 CrudFood. All rights reserved.</p>
+      </footer>
+    </>
   )
 }
 
-export default Footer
+export default Footer;  
